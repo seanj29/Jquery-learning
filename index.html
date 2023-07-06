@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
         <title>Example</title>
     </head>
     <body>
-        <p>This is an example of a s HTML page with one paragraph.</p>
+        <p class= "foo">This</p>
+        <script>
+            
+            function Filter(FilterBy){
+
+$("p").show().filter(`:not(.${FilterBy})`).hide();
+
+}
+            $(document).ready(() => {
+           Filter("a");
+            });
+        </script>
     </body>
 </html>
