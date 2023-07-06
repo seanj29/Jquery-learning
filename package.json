@@ -14,5 +14,8 @@
     "Learning"
   ],
   "author": "Sean Otto",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.0"
+  }
 }
