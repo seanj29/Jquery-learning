@@ -1,0 +1,18 @@
+{
+  "name": "jquery-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "Learning"
+  ],
+  "author": "Sean Otto",
+  "license": "MIT"
+}
